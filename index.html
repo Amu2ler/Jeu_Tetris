@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Tetris – Minimal JS</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="wrap">
+			<canvas id="board" width="300" height="600" aria-label="Tetris board"></canvas>
+			<aside class="panel">
+				<h1>TETRIS</h1>
+				<div class="stat"><span>Score</span><strong id="score">0</strong></div>
+				<div class="stat"><span>Lignes</span><strong id="lines">0</strong></div>
+				<div class="stat"><span>Niveau</span><strong id="level">1</strong></div>
+				<div class="hint">← → : déplacer | ↓ : accélérer | Z/Q/W : rotation</div>
+				<button id="restart" class="btn">Recommencer</button>
+			</aside>
+		</div>
+		<script src="main.js"></script>
+	</body>
+</html>
